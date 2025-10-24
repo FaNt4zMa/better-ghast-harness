@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "better_ghast_harness:harness_blast_protection",
+    "better_ghast_harness:harness_fire_protection",
+    "better_ghast_harness:harness_projectile_protection",
+    "better_ghast_harness:harness_protection"
+  ]
+}

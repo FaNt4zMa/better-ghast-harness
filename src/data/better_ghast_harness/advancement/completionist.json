@@ -1,0 +1,100 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:enchantments": {
+          "better_ghast_harness:harness_protection": 4,
+          "better_ghast_harness:harness_projectile_protection": 4,
+          "better_ghast_harness:harness_blast_protection": 4,
+          "better_ghast_harness:harness_fire_protection": 4
+        }
+      }
+    },
+    "title": {
+      "text": "Master of the Skies",
+      "color": "light_purple",
+      "italic": true
+    },
+    "description": "Enchant every Reinforced Harness tier",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "better_ghast_harness:enchanted_harness",
+  "criteria": {
+    "enchanted_t1": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:harnesses",
+          "components": {
+            "minecraft:custom_data": {
+              "tier": "1"
+            }
+          }
+        }
+      }
+    },
+    "enchanted_t2": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:harnesses",
+          "components": {
+            "minecraft:custom_data": {
+              "tier": "2"
+            }
+          }
+        }
+      }
+    },
+    "enchanted_t3": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:harnesses",
+          "components": {
+            "minecraft:custom_data": {
+              "tier": "3"
+            }
+          }
+        }
+      }
+    },
+    "enchanted_t4": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:harnesses",
+          "components": {
+            "minecraft:custom_data": {
+              "tier": "4"
+            }
+          }
+        }
+      }
+    },
+    "enchanted_t5": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:harnesses",
+          "components": {
+            "minecraft:custom_data": {
+              "tier": "5"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+  ["enchanted_t1"],
+  ["enchanted_t2"],
+  ["enchanted_t3"],
+  ["enchanted_t4"],
+  ["enchanted_t5"]
+]
+}

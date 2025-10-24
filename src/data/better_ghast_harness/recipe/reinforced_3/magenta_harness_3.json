@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Reinforced III",
+  "category": "equipment",
+  "pattern": [
+    "iii",
+    "iMi"
+  ],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "M": "minecraft:magenta_harness"
+  },
+  "result": {
+    "id": "minecraft:magenta_harness",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor",
+          "amount": 8,
+          "operation": "add_value",
+          "slot": "body"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "When equipped:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+75% Flying Speed",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+8 Armor",
+          "color": "blue",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_name": {
+        "text": "Magenta Reinforced Harness III",
+        "color": "gray",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "tier": "3"
+      },
+      "minecraft:enchantable": {
+      "value": 9
+      },
+      "minecraft:rarity": "uncommon",
+      "minecraft:tooltip_display": {
+        "hide_tooltip": false,
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    },
+    "count": 1
+  }
+}

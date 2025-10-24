@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_harness",
+      "components": {
+        "minecraft:lore": [
+          {
+            "text": "When equipped:",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "+200% Flying Speed",
+            "color": "blue",
+            "italic": false
+          }
+        ],
+        "minecraft:custom_name": {
+          "text": "Reinforced Harness V",
+          "color": "light_purple",
+          "italic": false
+        }
+      }
+    },
+    "title": "I Am The Flash!",
+    "description": "Craft a Reinforced Harness V",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "better_ghast_harness:root",
+  "criteria": {
+    "crafted_tier5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:harnesses",
+            "count": 1,
+            "components": {
+              "minecraft:custom_data": {
+                "tier": "5"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafted_tier5"
+    ]
+  ]
+}

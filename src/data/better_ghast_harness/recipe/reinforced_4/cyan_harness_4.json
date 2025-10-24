@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Reinforced IV",
+  "category": "equipment",
+  "pattern": [
+    "ddd",
+    "dCd"
+  ],
+  "key": {
+    "d": "minecraft:diamond",
+    "C": "minecraft:cyan_harness"
+  },
+  "result": {
+    "id": "minecraft:cyan_harness",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor",
+          "amount": 10,
+          "operation": "add_value",
+          "slot": "body"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:armor_toughness",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "body"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "When equipped:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+100% Flying Speed",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+10 Armor",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+4 Armor Toughness",
+          "color": "blue",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_name": {
+        "text": "Cyan Reinforced Harness IV",
+        "color": "aqua",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "tier": "4"
+      },
+      "minecraft:enchantable": {
+      "value": 10
+      },
+      "minecraft:rarity": "rare",
+      "minecraft:tooltip_display": {
+        "hide_tooltip": false,
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_harness"
+    },
+    "title": "Better Ghast Harness",
+    "description": "Begin your journey to faster ghast flying speeds!",
+    "frame": "task",
+    "background": "minecraft:gui/advancements/backgrounds/nether",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["impossible"]
+  ]
+}

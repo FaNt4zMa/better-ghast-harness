@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_harness",
+      "components": { 
+        "minecraft:custom_name": {
+          "text": "Enchanted Harness",
+          "color": "aqua",
+          "italic": false
+        },
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Harnessed Power",
+    "description": "Enchant any Reinforced Harness",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "better_ghast_harness:root",
+  "criteria": {
+    "enchanted_harness": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:harnesses"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enchanted_harness"
+    ]
+  ]
+}

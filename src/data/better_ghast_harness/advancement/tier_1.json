@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_harness",
+      "components": {
+        "minecraft:lore": [
+          {
+            "text": "When equipped:",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "+25% Flying Speed",
+            "color": "blue",
+            "italic": false
+          }
+        ],
+        "minecraft:custom_name": {
+          "text": "Reinforced Harness I",
+          "color": "#d0704d",
+          "italic": false
+        }
+      }
+    },
+    "title": "A Faster Happy Ghast?",
+    "description": "Craft a Reinforced Harness I",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "better_ghast_harness:root",
+  "criteria": {
+    "crafted_tier1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:harnesses",
+            "count": 1,
+            "components": {
+              "minecraft:custom_data": {
+                "tier": "1"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafted_tier1"
+    ]
+  ]
+}

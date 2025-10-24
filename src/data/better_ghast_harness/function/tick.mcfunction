@@ -1,0 +1,2 @@
+execute as @e[type=happy_ghast] if predicate better_ghast_harness:is_vehicle run function better_ghast_harness:apply_speed
+execute as @e[type=happy_ghast] unless predicate better_ghast_harness:is_vehicle run attribute @s minecraft:flying_speed modifier remove harness_speed

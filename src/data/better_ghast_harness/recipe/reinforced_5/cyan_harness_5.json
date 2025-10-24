@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:cyan_harness",
+  "addition": "minecraft:netherite_ingot",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "result": {
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor",
+          "amount": 10,
+          "operation": "add_value",
+          "slot": "body"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:armor_toughness",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "body"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "minecraft:knockback_resistance",
+          "amount": 0.2,
+          "operation": "add_value",
+          "slot": "body"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "When equipped:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+200% Flying Speed",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+10 Armor",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+6 Armor Toughness",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+20% Knockback Resistance",
+          "color": "blue",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_name": {
+        "text": "Cyan Reinforced Harness V",
+        "color": "light_purple",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "tier": "5"
+      },
+      "minecraft:enchantable": {
+        "value": 15
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:tooltip_display": {
+        "hide_tooltip": false,
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:cyan_harness"
+  }
+}

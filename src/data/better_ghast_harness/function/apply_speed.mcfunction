@@ -1,0 +1,5 @@
+execute if data entity @s {equipment:{body:{components:{"minecraft:custom_data":{tier:"1"}}}}} run attribute @s minecraft:flying_speed modifier add harness_speed 0.25 add_multiplied_base
+execute if data entity @s {equipment:{body:{components:{"minecraft:custom_data":{tier:"2"}}}}} run attribute @s minecraft:flying_speed modifier add harness_speed 0.5 add_multiplied_base
+execute if data entity @s {equipment:{body:{components:{"minecraft:custom_data":{tier:"3"}}}}} run attribute @s minecraft:flying_speed modifier add harness_speed 0.75 add_multiplied_base
+execute if data entity @s {equipment:{body:{components:{"minecraft:custom_data":{tier:"4"}}}}} run attribute @s minecraft:flying_speed modifier add harness_speed 1 add_multiplied_base
+execute if data entity @s {equipment:{body:{components:{"minecraft:custom_data":{tier:"5"}}}}} run attribute @s minecraft:flying_speed modifier add harness_speed 2 add_multiplied_base

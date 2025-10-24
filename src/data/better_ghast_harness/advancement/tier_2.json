@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_harness",
+      "components": {
+        "minecraft:lore": [
+          {
+            "text": "When equipped:",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "+50% Flying Speed",
+            "color": "blue",
+            "italic": false
+          }
+        ],
+        "minecraft:custom_name": {
+          "text": "Reinforced Harness II",
+          "color": "yellow",
+          "italic": false
+        }
+      }
+    },
+    "title": "How Fast Can You Go?",
+    "description": "Craft a Reinforced Harness II",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "better_ghast_harness:root",
+  "criteria": {
+    "crafted_tier2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:harnesses",
+            "count": 1,
+            "components": {
+              "minecraft:custom_data": {
+                "tier": "2"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafted_tier2"
+    ]
+  ]
+}

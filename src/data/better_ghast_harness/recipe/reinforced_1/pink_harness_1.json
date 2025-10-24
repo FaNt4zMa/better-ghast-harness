@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Reinforced I",
+  "category": "equipment",
+  "pattern": [
+    "ccc",
+    "cPc"
+  ],
+  "key": {
+    "c": "minecraft:copper_ingot",
+    "P": "minecraft:pink_harness"
+  },
+  "result": {
+    "id": "minecraft:pink_harness",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor",
+          "amount": 5,
+          "operation": "add_value",
+          "slot": "body"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "When equipped:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "+25% Flying Speed",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "+5 Armor",
+          "color": "blue",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_name": {
+        "text": "Pink Reinforced Harness I",
+        "color": "#d0704d",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "tier": "1"
+      },
+      "minecraft:enchantable": {
+      "value": 8
+      },
+      "minecraft:rarity": "common",
+      "minecraft:tooltip_display": {
+        "hide_tooltip": false,
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    },
+    "count": 1
+  }
+}
