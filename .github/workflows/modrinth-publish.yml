@@ -1,0 +1,41 @@
+name: Modrinth Release Upload
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Download release asset
+        run: |
+          gh release download ${{ github.event.release.tag_name }} \
+            -p "Better-Ghast-Harness-${{ github.event.release.tag_name }}.zip"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to Modrinth
+        uses: cloudnode-pro/modrinth-publish@v2
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: tXHowlQJ
+          name: ${{ github.event.release.name }}
+          files: '["Better-Ghast-Harness-${{ github.event.release.tag_name }}.zip"]'
+          version: ${{ github.event.release.tag_name }}
+          changelog: ${{ github.event.release.body }}
+          loaders: '["minecraft"]'
+          game-versions: |-
+            1.21.6
+            1.21.7
+            1.21.8
+            1.21.9
+            1.21.10
+
