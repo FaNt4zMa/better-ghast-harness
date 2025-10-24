@@ -19,12 +19,23 @@ jobs:
       - name: Create zip from src folder
         run: |
           cd src
-          ZIPNAME="Better-Ghast-Harness-${GITHUB_REF_NAME}.zip"
+          ZIPNAME="Better-Ghast-Harness-${{ github.ref_name }}.zip"
           zip -r "../$ZIPNAME" .
+
+      - name: Extract latest changelog entry
+        id: changelog
+        run: |
+          awk '/^## /{if (NR>1) exit} {print}' changelog.md > latest_changelog.txt
+          {
+            echo "body<<EOF"
+            cat latest_changelog.txt
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Create GitHub Release & attach zip
         uses: softprops/action-gh-release@v2
         with:
+          body: ${{ steps.changelog.outputs.body }}
           files: "Better-Ghast-Harness-${{ github.ref_name }}.zip"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
