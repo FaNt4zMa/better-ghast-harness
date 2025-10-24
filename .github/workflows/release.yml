@@ -1,29 +1,30 @@
-name: Build and Attach Datapack Zip
+name: Auto Release Datapack
 
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - 'v*'
 
 permissions:
   contents: write
 
 jobs:
-  build-and-upload:
+  build-and-release:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create zip from src folder (contents only)
+      - name: Create zip from src folder
         run: |
           cd src
-          ZIPNAME="Better-Ghast-Harness-${GITHUB_REF_NAME}.zip.zip"
+          ZIPNAME="Better-Ghast-Harness-${GITHUB_REF_NAME}.zip"
           zip -r "../$ZIPNAME" .
 
-      - name: Upload zip to GitHub Release
+      - name: Create GitHub Release & attach zip
         uses: softprops/action-gh-release@v2
         with:
-          files: ${{ github.repository }}-${{ github.ref_name }}.zip
+          files: "Better-Ghast-Harness-${{ github.ref_name }}.zip"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
