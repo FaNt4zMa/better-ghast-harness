@@ -39,4 +39,4 @@ jobs:
           files: "Better-Ghast-Harness-${{ github.ref_name }}.zip"
           name: "Better Ghast Harness ${{ github.ref_name }}"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
