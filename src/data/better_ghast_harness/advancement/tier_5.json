@@ -16,14 +16,14 @@
           }
         ],
         "minecraft:custom_name": {
-          "text": "Reinforced Harness V",
+          "text": "Netherite Harness",
           "color": "light_purple",
           "italic": false
         }
       }
     },
     "title": "I Am The Flash!",
-    "description": "Craft a Reinforced Harness V",
+    "description": "Craft a Netherite Harness",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

@@ -16,14 +16,14 @@
           }
         ],
         "minecraft:custom_name": {
-          "text": "Reinforced Harness I",
+          "text": "Copper Harness",
           "color": "#d0704d",
           "italic": false
         }
       }
     },
     "title": "A Faster Happy Ghast?",
-    "description": "Craft a Reinforced Harness I",
+    "description": "Craft a Copper Harness",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

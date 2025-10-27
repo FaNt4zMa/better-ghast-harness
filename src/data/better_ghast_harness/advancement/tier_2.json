@@ -16,14 +16,14 @@
           }
         ],
         "minecraft:custom_name": {
-          "text": "Reinforced Harness II",
+          "text": "Gold Harness",
           "color": "yellow",
           "italic": false
         }
       }
     },
     "title": "How Fast Can You Go?",
-    "description": "Craft a Reinforced Harness II",
+    "description": "Craft a Gold Harness",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
