@@ -45,9 +45,9 @@
         "color": "gray",
         "italic": false
       },
+      "minecraft:base_color": "yellow",
       "minecraft:custom_data": {
         "tier": "3",
-        "color": "yellow",
         "particle": ""
       },
       "minecraft:enchantable": {

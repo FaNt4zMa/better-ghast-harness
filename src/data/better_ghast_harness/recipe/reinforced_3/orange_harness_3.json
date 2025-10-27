@@ -40,6 +40,7 @@
           "italic": false
         }
       ],
+      "minecraft:base_color": "orange",
       "minecraft:custom_name": {
         "text": "Iron Harness",
         "color": "gray",
@@ -47,7 +48,6 @@
       },
       "minecraft:custom_data": {
         "tier": "3",
-        "color": "orange",
         "particle": ""
       },
       "minecraft:enchantable": {

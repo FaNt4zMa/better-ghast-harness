@@ -5,9 +5,7 @@
   "result": {
     "id": "minecraft:magenta_harness",
     "components": {
-      "custom_data": {
-        "color": "magenta"
-      }
+      "minecraft:base_color": "magenta"
     },
     "count": 1
   }

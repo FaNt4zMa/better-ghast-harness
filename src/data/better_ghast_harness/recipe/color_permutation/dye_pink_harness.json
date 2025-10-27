@@ -5,9 +5,7 @@
   "result": {
     "id": "minecraft:pink_harness",
     "components": {
-      "custom_data": {
-        "color": "pink"
-      }
+      "minecraft:base_color": "pink"
     },
     "count": 1
   }

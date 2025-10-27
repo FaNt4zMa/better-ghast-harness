@@ -61,9 +61,9 @@
         "color": "light_purple",
         "italic": false
       },
+      "minecraft:base_color": "lime",
       "minecraft:custom_data": {
         "tier": "5",
-        "color": "lime",
         "particle": ""
       },
       "minecraft:enchantable": {

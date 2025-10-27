@@ -57,9 +57,9 @@
         "color": "aqua",
         "italic": false
       },
+      "minecraft:base_color": "purple",
       "minecraft:custom_data": {
         "tier": "4",
-        "color": "purple",
         "particle": ""
       },
       "minecraft:enchantable": {

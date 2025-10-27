@@ -4,11 +4,6 @@
   "material": "minecraft:yellow_dye",
   "result": {
     "id": "minecraft:yellow_harness",
-    "components": {
-      "custom_data": {
-        "color": "yellow"
-      }
-    },
     "count": 1
   }
 }

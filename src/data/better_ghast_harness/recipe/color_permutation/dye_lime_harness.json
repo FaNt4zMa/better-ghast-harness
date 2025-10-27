@@ -5,9 +5,7 @@
   "result": {
     "id": "minecraft:lime_harness",
     "components": {
-      "custom_data": {
-        "color": "lime"
-      }
+      "minecraft:base_color": "lime"
     },
     "count": 1
   }

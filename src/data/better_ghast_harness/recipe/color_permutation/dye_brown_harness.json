@@ -5,9 +5,7 @@
   "result": {
     "id": "minecraft:brown_harness",
     "components": {
-      "custom_data": {
-        "color": "brown"
-      }
+      "minecraft:base_color": "brown"
     },
     "count": 1
   }
