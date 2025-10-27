@@ -8,8 +8,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.225,
-          "per_level_above_first": 0.225
+          "base": 0.3,
+          "per_level_above_first": 0.3
         },
         "attribute": "minecraft:explosion_knockback_resistance",
         "id": "minecraft:enchantment.blast_protection",
@@ -22,8 +22,8 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 3,
-            "per_level_above_first": 3
+            "base": 4,
+            "per_level_above_first": 4
           }
         },
         "requirements": {
