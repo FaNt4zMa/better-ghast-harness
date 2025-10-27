@@ -4,6 +4,11 @@
   "material": "minecraft:brown_dye",
   "result": {
     "id": "minecraft:brown_harness",
+    "components": {
+      "custom_data": {
+        "color": "brown"
+      }
+    },
     "count": 1
   }
 }

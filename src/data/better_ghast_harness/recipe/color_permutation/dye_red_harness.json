@@ -4,6 +4,11 @@
   "material": "minecraft:red_dye",
   "result": {
     "id": "minecraft:red_harness",
+    "components": {
+      "custom_data": {
+        "color": "red"
+      }
+    },
     "count": 1
   }
 }

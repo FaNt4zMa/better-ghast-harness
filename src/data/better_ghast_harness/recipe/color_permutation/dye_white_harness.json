@@ -4,6 +4,11 @@
   "material": "minecraft:white_dye",
   "result": {
     "id": "minecraft:white_harness",
+    "components": {
+      "custom_data": {
+        "color": "white"
+      }
+    },
     "count": 1
   }
 }

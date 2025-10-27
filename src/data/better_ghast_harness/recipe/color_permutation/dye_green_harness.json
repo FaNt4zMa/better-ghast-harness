@@ -4,6 +4,11 @@
   "material": "minecraft:green_dye",
   "result": {
     "id": "minecraft:green_harness",
+    "components": {
+      "custom_data": {
+        "color": "green"
+      }
+    },
     "count": 1
   }
 }

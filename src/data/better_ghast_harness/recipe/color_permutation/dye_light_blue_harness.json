@@ -4,6 +4,11 @@
   "material": "minecraft:light_blue_dye",
   "result": {
     "id": "minecraft:light_blue_harness",
+    "components": {
+      "custom_data": {
+        "color": "light_blue"
+      }
+    },
     "count": 1
   }
 }

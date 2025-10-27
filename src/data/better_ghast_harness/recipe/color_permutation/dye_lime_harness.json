@@ -4,6 +4,11 @@
   "material": "minecraft:lime_dye",
   "result": {
     "id": "minecraft:lime_harness",
+    "components": {
+      "custom_data": {
+        "color": "lime"
+      }
+    },
     "count": 1
   }
 }

@@ -4,6 +4,11 @@
   "material": "minecraft:purple_dye",
   "result": {
     "id": "minecraft:purple_harness",
+    "components": {
+      "custom_data": {
+        "color": "purple"
+      }
+    },
     "count": 1
   }
 }

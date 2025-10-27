@@ -4,6 +4,11 @@
   "material": "minecraft:light_gray_dye",
   "result": {
     "id": "minecraft:light_gray_harness",
+    "components": {
+      "custom_data": {
+        "color": "light_gray"
+      }
+    },
     "count": 1
   }
 }
