@@ -23,6 +23,7 @@
         }
       ],
       "minecraft:lore": [
+        "",
         {
           "text": "When equipped:",
           "color": "gray",
