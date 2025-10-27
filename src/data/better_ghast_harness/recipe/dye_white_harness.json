@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "input": "#minecraft:harnesses",
+  "material": "minecraft:white_dye",
+  "result": {
+    "id": "minecraft:white_harness",
+    "count": 1
+  }
+}

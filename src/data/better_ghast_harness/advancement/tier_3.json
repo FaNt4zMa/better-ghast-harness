@@ -16,14 +16,14 @@
           }
         ],
         "minecraft:custom_name": {
-          "text": "Reinforced Harness III",
+          "text": "Iron Harness",
           "color": "gray",
           "italic": false
         }
       }
     },
     "title": "Now You're Flying!",
-    "description": "Craft a Reinforced Harness III",
+    "description": "Craft an Iron Harness",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

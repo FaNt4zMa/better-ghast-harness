@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "Reinforced IV",
+  "group": "Diamond",
   "category": "equipment",
   "pattern": [
     "ddd",
@@ -52,7 +52,7 @@
         }
       ],
       "minecraft:custom_name": {
-        "text": "Red Reinforced Harness IV",
+        "text": "Diamond Harness",
         "color": "aqua",
         "italic": false
       },
@@ -60,7 +60,7 @@
         "tier": "4"
       },
       "minecraft:enchantable": {
-      "value": 10
+        "value": 10
       },
       "minecraft:rarity": "rare",
       "minecraft:tooltip_display": {

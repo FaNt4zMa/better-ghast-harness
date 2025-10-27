@@ -12,7 +12,7 @@
       }
     },
     "title": "Harnessed Power",
-    "description": "Enchant any Reinforced Harness",
+    "description": "Enchant any Harness material",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

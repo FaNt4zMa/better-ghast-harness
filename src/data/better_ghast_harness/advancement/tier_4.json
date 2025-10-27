@@ -16,14 +16,14 @@
           }
         ],
         "minecraft:custom_name": {
-          "text": "Reinforced Harness IV",
+          "text": "Diamond Harness",
           "color": "aqua",
           "italic": false
         }
       }
     },
     "title": "Ghast Go Zoom!",
-    "description": "Craft a Reinforced Harness IV",
+    "description": "Craft a Diamond Harness",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

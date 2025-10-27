@@ -16,7 +16,7 @@
       "color": "light_purple",
       "italic": true
     },
-    "description": "Enchant every Reinforced Harness tier",
+    "description": "Enchant every Harness material",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

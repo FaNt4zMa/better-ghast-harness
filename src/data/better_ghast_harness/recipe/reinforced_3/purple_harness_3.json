@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "Reinforced III",
+  "group": "Iron",
   "category": "equipment",
   "pattern": [
     "iii",
@@ -40,7 +40,7 @@
         }
       ],
       "minecraft:custom_name": {
-        "text": "Purple Reinforced Harness III",
+        "text": "Iron Harness",
         "color": "gray",
         "italic": false
       },
@@ -48,7 +48,7 @@
         "tier": "3"
       },
       "minecraft:enchantable": {
-      "value": 9
+        "value": 9
       },
       "minecraft:rarity": "uncommon",
       "minecraft:tooltip_display": {
