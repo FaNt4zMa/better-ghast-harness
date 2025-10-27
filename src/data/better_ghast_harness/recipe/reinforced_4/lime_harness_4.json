@@ -60,7 +60,7 @@
       "minecraft:base_color": "lime",
       "minecraft:custom_data": {
         "tier": "4",
-        "particle": ""
+        "particle": "dust"
       },
       "minecraft:enchantable": {
         "value": 10

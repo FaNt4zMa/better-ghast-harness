@@ -48,7 +48,7 @@
       "minecraft:base_color": "brown",
       "minecraft:custom_data": {
         "tier": "1",
-        "particle": ""
+        "particle": "dust"
       },
       "minecraft:enchantable": {
         "value": 8
