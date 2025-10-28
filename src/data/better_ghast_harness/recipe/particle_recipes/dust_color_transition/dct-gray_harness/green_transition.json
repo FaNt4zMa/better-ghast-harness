@@ -1,16 +1,16 @@
 {
-  "type": "minecraft:smithing_transform",
-  "base": "minecraft:gray_harness",
-  "addition": "minecraft:green_dye",
-  "template": "minecraft:echo_shard",
-  "result": {
-    "id": "minecraft:gray_harness",
-    "components": {
-      "minecraft:custom_data": {
-        "particle": "sculk_soul",
-        "transition_color": "[0.37,0.49,0.09]"
-      }
-    },
-    "count": 1
-  }
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:gray_harness",
+    "addition": "minecraft:green_dye",
+    "template": "minecraft:echo_shard",
+    "result": {
+        "id": "minecraft:gray_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "dust_color_transition",
+                "transition_color": "[0.37,0.49,0.09]"
+            }
+        },
+        "count": 1
+    }
 }

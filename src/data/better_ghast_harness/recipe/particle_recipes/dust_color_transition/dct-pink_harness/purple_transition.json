@@ -7,7 +7,7 @@
         "id": "minecraft:pink_harness",
         "components": {
             "minecraft:custom_data": {
-                "particle": "sculk_soul",
+                "particle": "dust_color_transition",
                 "transition_color": "[0.54,0.2,0.72]"
             }
         },
