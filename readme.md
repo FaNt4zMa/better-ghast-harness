@@ -8,7 +8,7 @@ Take your ghast riding experience to the next level! This datapack adds craftabl
 Craft harnesses using the same materials as regular armor:
 
 <details>
-<summary>Spoiler</summary>
+<summary>How to craft</summary>
 
 ![Reinforced Harness I](https://cdn.modrinth.com/data/cached_images/88db06036dff72ee569279310148e7cfb534babd.png)
 
@@ -39,34 +39,28 @@ Each tier provides **half the armor points** of a full armor set (rounded up) of
 ### ⚡ Speed Boost While Riding
 Mount up and feel the difference! Each reinforced harness grants your ghast a flying speed increase **only when you're riding**:
 
-<details>
-<summary>Spoiler</summary>
-
 - Reinforced I: **+25% speed**
 - Reinforced II: **+50% speed**
 - Reinforced III: **+75% speed**
 - Reinforced IV: **+100% speed**
 - Reinforced V: **+200% speed**
 
-</details>
-
-
-
 ### 📖 Enhanced Enchantments
 To compensate the Ghast's lack of equipment, Reinforced harnesses support all **Protection enchantments** at **1.5x their normal power**:
+
+![Enchantable Reinforced Harness](https://cdn.modrinth.com/data/cached_images/c5b7dfe5b09038ca63f77dae91a09a1576a0e592.png)
 
 
 <details>
 <summary>Spoiler</summary>
 
-![Enchantable Reinforced Harness](https://cdn.modrinth.com/data/cached_images/c5b7dfe5b09038ca63f77dae91a09a1576a0e592.png)
-
-- Protection
-- Fire Protection
-- Blast Protection
-- Projectile Protection
+- Harness Protection
+- Harness Fire Protection
+- Harness Blast Protection
+- Harness Projectile Protection
 
 </details>
+
 
 
 
