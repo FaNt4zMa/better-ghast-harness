@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:magenta_harness",
+    "addition": "minecraft:brown_dye",
+    "template": "minecraft:echo_shard",
+    "result": {
+        "id": "minecraft:magenta_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "sculk_soul",
+                "transition_color": "[0.51,0.33,0.2]"
+            }
+        },
+        "count": 1
+    }
+}

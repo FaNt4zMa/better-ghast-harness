@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:yellow_harness",
+    "addition": "minecraft:wind_charge",
+    "template": "minecraft:firework_star",
+    "result": {
+        "id": "minecraft:yellow_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "small_gust"
+            }
+        },
+        "count": 1
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:cyan_harness",
+    "addition": "minecraft:rotten_flesh",
+    "template": "minecraft:firework_star",
+    "result": {
+        "id": "minecraft:cyan_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "angry_villager"
+            }
+        },
+        "count": 1
+    }
+}

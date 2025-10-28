@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:light_blue_harness",
+    "addition": "minecraft:soul_soil",
+    "template": "minecraft:firework_star",
+    "result": {
+        "id": "minecraft:light_blue_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "soul"
+            }
+        },
+        "count": 1
+    }
+}

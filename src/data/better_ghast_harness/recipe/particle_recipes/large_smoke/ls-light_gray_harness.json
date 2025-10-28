@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:light_gray_harness",
+    "addition": "minecraft:blaze_rod",
+    "template": "minecraft:firework_star",
+    "result": {
+        "id": "minecraft:light_gray_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "large_smoke"
+            }
+        },
+        "count": 1
+    }
+}

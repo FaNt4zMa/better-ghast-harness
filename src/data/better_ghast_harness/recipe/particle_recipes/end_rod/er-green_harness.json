@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:green_harness",
+    "addition": "minecraft:end_rod",
+    "template": "minecraft:firework_star",
+    "result": {
+        "id": "minecraft:green_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "end_rod"
+            }
+        },
+        "count": 1
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:lime_harness",
+    "addition": "minecraft:red_dye",
+    "template": "minecraft:echo_shard",
+    "result": {
+        "id": "minecraft:lime_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "sculk_soul",
+                "transition_color": "[0.69,0.18,0.15]"
+            }
+        },
+        "count": 1
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:purple_harness",
+    "addition": "minecraft:glow_ink_sac",
+    "template": "minecraft:firework_star",
+    "result": {
+        "id": "minecraft:purple_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "glow"
+            }
+        },
+        "count": 1
+    }
+}

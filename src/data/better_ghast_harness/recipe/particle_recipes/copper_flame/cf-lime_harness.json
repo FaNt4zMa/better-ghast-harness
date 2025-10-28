@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:lime_harness",
+    "addition": "minecraft:copper_torch",
+    "template": "minecraft:firework_star",
+    "result": {
+        "id": "minecraft:lime_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "copper_flame"
+            }
+        },
+        "count": 1
+    }
+}

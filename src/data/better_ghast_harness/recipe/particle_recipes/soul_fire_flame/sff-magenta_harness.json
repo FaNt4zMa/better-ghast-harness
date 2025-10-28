@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:magenta_harness",
+    "addition": "minecraft:soul_torch",
+    "template": "minecraft:firework_star",
+    "result": {
+        "id": "minecraft:magenta_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "soul_fire_flame"
+            }
+        },
+        "count": 1
+    }
+}

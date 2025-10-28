@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:pink_harness",
+    "addition": "minecraft:totem_of_undying",
+    "template": "minecraft:firework_star",
+    "result": {
+        "id": "minecraft:pink_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "totem_of_undying"
+            }
+        },
+        "count": 1
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:green_harness",
+    "addition": "minecraft:campfire",
+    "template": "minecraft:firework_star",
+    "result": {
+        "id": "minecraft:green_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "campfire_cosy_smoke"
+            }
+        },
+        "count": 1
+    }
+}

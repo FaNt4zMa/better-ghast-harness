@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:magenta_harness",
+    "addition": "minecraft:redstone",
+    "template": "minecraft:firework_star",
+    "result": {
+        "id": "minecraft:magenta_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "witch"
+            }
+        },
+        "count": 1
+    }
+}

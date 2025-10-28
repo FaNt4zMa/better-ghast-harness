@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:yellow_harness",
+    "addition": "minecraft:pink_dye",
+    "template": "minecraft:echo_shard",
+    "result": {
+        "id": "minecraft:yellow_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "sculk_soul",
+                "transition_color": "[0.95,0.55,0.67]"
+            }
+        },
+        "count": 1
+    }
+}

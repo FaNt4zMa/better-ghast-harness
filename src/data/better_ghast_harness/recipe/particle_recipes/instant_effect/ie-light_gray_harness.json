@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:light_gray_harness",
+    "addition": "minecraft:splash_potion",
+    "template": "minecraft:firework_star",
+    "result": {
+        "id": "minecraft:light_gray_harness",
+        "components": {
+            "minecraft:custom_data": {
+                "particle": "instant_effect"
+            }
+        },
+        "count": 1
+    }
+}
