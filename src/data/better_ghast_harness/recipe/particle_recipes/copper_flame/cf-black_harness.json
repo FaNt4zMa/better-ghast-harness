@@ -6,8 +6,10 @@
   "result": {
     "id": "minecraft:black_harness",
     "components": {
-      "minecraft:custom_data": {
-        "particle": "copper_flame"
+      "minecraft:writable_book_content": {
+        "pages": [
+          "copper_flame"
+        ]
       }
     },
     "count": 1

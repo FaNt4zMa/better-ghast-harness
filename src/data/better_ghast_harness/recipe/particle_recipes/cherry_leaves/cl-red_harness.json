@@ -1,15 +1,17 @@
 {
-    "type": "minecraft:smithing_transform",
-    "base": "minecraft:red_harness",
-    "addition": "minecraft:cherry_leaves",
-    "template": "minecraft:firework_star",
-    "result": {
-        "id": "minecraft:red_harness",
-        "components": {
-            "minecraft:custom_data": {
-                "particle": "cherry_leaves"
-            }
-        },
-        "count": 1
-    }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:red_harness",
+  "addition": "minecraft:cherry_leaves",
+  "template": "minecraft:firework_star",
+  "result": {
+    "id": "minecraft:red_harness",
+    "components": {
+      "minecraft:writable_book_content": {
+        "pages": [
+          "cherry_leaves"
+        ]
+      }
+    },
+    "count": 1
+  }
 }

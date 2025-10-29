@@ -1,16 +1,18 @@
 {
-    "type": "minecraft:smithing_transform",
-    "base": "minecraft:pink_harness",
-    "addition": "minecraft:yellow_dye",
-    "template": "minecraft:echo_shard",
-    "result": {
-        "id": "minecraft:pink_harness",
-        "components": {
-            "minecraft:custom_data": {
-                "particle": "dust_color_transition",
-                "transition_color": "[1.0,0.85,0.24]"
-            }
-        },
-        "count": 1
-    }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:pink_harness",
+  "addition": "minecraft:yellow_dye",
+  "template": "minecraft:echo_shard",
+  "result": {
+    "id": "minecraft:pink_harness",
+    "components": {
+      "minecraft:writable_book_content": {
+        "pages": [
+          "dust_color_transition",
+          "[1.0,0.85,0.24]"
+        ]
+      }
+    },
+    "count": 1
+  }
 }

@@ -6,8 +6,10 @@
   "result": {
     "id": "minecraft:black_harness",
     "components": {
-      "minecraft:custom_data": {
-        "particle": "snowflake"
+      "minecraft:writable_book_content": {
+        "pages": [
+          "snowflake"
+        ]
       }
     },
     "count": 1

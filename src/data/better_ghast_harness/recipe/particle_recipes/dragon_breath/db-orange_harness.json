@@ -1,15 +1,17 @@
 {
-    "type": "minecraft:smithing_transform",
-    "base": "minecraft:orange_harness",
-    "addition": "minecraft:dragon_breath",
-    "template": "minecraft:firework_star",
-    "result": {
-        "id": "minecraft:orange_harness",
-        "components": {
-            "minecraft:custom_data": {
-                "particle": "dragon_breath"
-            }
-        },
-        "count": 1
-    }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:orange_harness",
+  "addition": "minecraft:dragon_breath",
+  "template": "minecraft:firework_star",
+  "result": {
+    "id": "minecraft:orange_harness",
+    "components": {
+      "minecraft:writable_book_content": {
+        "pages": [
+          "dragon_breath"
+        ]
+      }
+    },
+    "count": 1
+  }
 }

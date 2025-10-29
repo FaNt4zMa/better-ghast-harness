@@ -42,13 +42,17 @@
       ],
       "minecraft:custom_name": {
         "text": "Gold Harness",
-        "color": "#e4dc55",
+        "color": "yellow",
         "italic": false
       },
       "minecraft:base_color": "light_blue",
       "minecraft:custom_data": {
-        "tier": "2",
-        "particle": "dust"
+        "tier": "2"
+      },
+      "minecraft:writable_book_content": {
+        "pages": [
+          "dust"
+        ]
       },
       "minecraft:enchantable": {
         "value": 25

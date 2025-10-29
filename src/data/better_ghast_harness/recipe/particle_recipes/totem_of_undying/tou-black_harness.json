@@ -6,8 +6,10 @@
   "result": {
     "id": "minecraft:black_harness",
     "components": {
-      "minecraft:custom_data": {
-        "particle": "totem_of_undying"
+      "minecraft:writable_book_content": {
+        "pages": [
+          "totem_of_undying"
+        ]
       }
     },
     "count": 1

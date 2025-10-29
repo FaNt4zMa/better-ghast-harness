@@ -1,16 +1,18 @@
 {
-    "type": "minecraft:smithing_transform",
-    "base": "minecraft:blue_harness",
-    "addition": "minecraft:green_dye",
-    "template": "minecraft:echo_shard",
-    "result": {
-        "id": "minecraft:blue_harness",
-        "components": {
-            "minecraft:custom_data": {
-                "particle": "dust_color_transition",
-                "transition_color": "[0.37,0.49,0.09]"
-            }
-        },
-        "count": 1
-    }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:blue_harness",
+  "addition": "minecraft:green_dye",
+  "template": "minecraft:echo_shard",
+  "result": {
+    "id": "minecraft:blue_harness",
+    "components": {
+      "minecraft:writable_book_content": {
+        "pages": [
+          "dust_color_transition",
+          "[0.37,0.49,0.09]"
+        ]
+      }
+    },
+    "count": 1
+  }
 }

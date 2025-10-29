@@ -40,15 +40,19 @@
           "italic": false
         }
       ],
-      "minecraft:base_color": "orange",
       "minecraft:custom_name": {
         "text": "Iron Harness",
         "color": "gray",
         "italic": false
       },
+      "minecraft:base_color": "orange",
       "minecraft:custom_data": {
-        "tier": "3",
-        "particle": "dust"
+        "tier": "3"
+      },
+      "minecraft:writable_book_content": {
+        "pages": [
+          "dust"
+        ]
       },
       "minecraft:enchantable": {
         "value": 9

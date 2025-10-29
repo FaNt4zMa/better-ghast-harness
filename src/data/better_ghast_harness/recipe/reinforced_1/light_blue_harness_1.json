@@ -47,8 +47,12 @@
       },
       "minecraft:base_color": "light_blue",
       "minecraft:custom_data": {
-        "tier": "1",
-        "particle": "dust"
+        "tier": "1"
+      },
+      "minecraft:writable_book_content": {
+        "pages": [
+          "dust"
+        ]
       },
       "minecraft:enchantable": {
         "value": 8

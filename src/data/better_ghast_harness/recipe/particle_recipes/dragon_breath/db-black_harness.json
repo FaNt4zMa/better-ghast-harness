@@ -6,8 +6,10 @@
   "result": {
     "id": "minecraft:black_harness",
     "components": {
-      "minecraft:custom_data": {
-        "particle": "dragon_breath"
+      "minecraft:writable_book_content": {
+        "pages": [
+          "dragon_breath"
+        ]
       }
     },
     "count": 1

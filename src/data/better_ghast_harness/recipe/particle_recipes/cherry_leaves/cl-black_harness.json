@@ -6,8 +6,10 @@
   "result": {
     "id": "minecraft:black_harness",
     "components": {
-      "minecraft:custom_data": {
-        "particle": "cherry_leaves"
+      "minecraft:writable_book_content": {
+        "pages": [
+          "cherry_leaves"
+        ]
       }
     },
     "count": 1

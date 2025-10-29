@@ -1,15 +1,17 @@
 {
-    "type": "minecraft:smithing_transform",
-    "base": "minecraft:red_harness",
-    "addition": "minecraft:candle",
-    "template": "minecraft:firework_star",
-    "result": {
-        "id": "minecraft:red_harness",
-        "components": {
-            "minecraft:custom_data": {
-                "particle": "small_flame"
-            }
-        },
-        "count": 1
-    }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:red_harness",
+  "addition": "minecraft:candle",
+  "template": "minecraft:firework_star",
+  "result": {
+    "id": "minecraft:red_harness",
+    "components": {
+      "minecraft:writable_book_content": {
+        "pages": [
+          "small_flame"
+        ]
+      }
+    },
+    "count": 1
+  }
 }

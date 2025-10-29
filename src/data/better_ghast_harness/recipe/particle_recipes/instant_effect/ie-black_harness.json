@@ -6,8 +6,10 @@
   "result": {
     "id": "minecraft:black_harness",
     "components": {
-      "minecraft:custom_data": {
-        "particle": "instant_effect"
+      "minecraft:writable_book_content": {
+        "pages": [
+          "instant_effect"
+        ]
       }
     },
     "count": 1

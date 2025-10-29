@@ -1,15 +1,17 @@
 {
-    "type": "minecraft:smithing_transform",
-    "base": "minecraft:blue_harness",
-    "addition": "minecraft:firework_rocket",
-    "template": "minecraft:firework_star",
-    "result": {
-        "id": "minecraft:blue_harness",
-        "components": {
-            "minecraft:custom_data": {
-                "particle": "firework"
-            }
-        },
-        "count": 1
-    }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:blue_harness",
+  "addition": "minecraft:firework_rocket",
+  "template": "minecraft:firework_star",
+  "result": {
+    "id": "minecraft:blue_harness",
+    "components": {
+      "minecraft:writable_book_content": {
+        "pages": [
+          "firework"
+        ]
+      }
+    },
+    "count": 1
+  }
 }

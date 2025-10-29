@@ -1,15 +1,17 @@
 {
-    "type": "minecraft:smithing_transform",
-    "base": "minecraft:cyan_harness",
-    "addition": "minecraft:totem_of_undying",
-    "template": "minecraft:firework_star",
-    "result": {
-        "id": "minecraft:cyan_harness",
-        "components": {
-            "minecraft:custom_data": {
-                "particle": "totem_of_undying"
-            }
-        },
-        "count": 1
-    }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:cyan_harness",
+  "addition": "minecraft:totem_of_undying",
+  "template": "minecraft:firework_star",
+  "result": {
+    "id": "minecraft:cyan_harness",
+    "components": {
+      "minecraft:writable_book_content": {
+        "pages": [
+          "totem_of_undying"
+        ]
+      }
+    },
+    "count": 1
+  }
 }

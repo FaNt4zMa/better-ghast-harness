@@ -1,15 +1,17 @@
 {
-    "type": "minecraft:smithing_transform",
-    "base": "minecraft:yellow_harness",
-    "addition": "minecraft:copper_torch",
-    "template": "minecraft:firework_star",
-    "result": {
-        "id": "minecraft:yellow_harness",
-        "components": {
-            "minecraft:custom_data": {
-                "particle": "copper_flame"
-            }
-        },
-        "count": 1
-    }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:yellow_harness",
+  "addition": "minecraft:copper_torch",
+  "template": "minecraft:firework_star",
+  "result": {
+    "id": "minecraft:yellow_harness",
+    "components": {
+      "minecraft:writable_book_content": {
+        "pages": [
+          "copper_flame"
+        ]
+      }
+    },
+    "count": 1
+  }
 }
