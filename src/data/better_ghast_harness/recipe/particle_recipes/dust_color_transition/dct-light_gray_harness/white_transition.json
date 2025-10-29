@@ -9,7 +9,7 @@
       "minecraft:writable_book_content": {
         "pages": [
           "dust_color_transition",
-          "[0.98,1.0,1.0]"
+          "white"
         ]
       }
     },
