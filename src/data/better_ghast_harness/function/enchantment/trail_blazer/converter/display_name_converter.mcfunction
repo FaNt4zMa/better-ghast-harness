@@ -3,7 +3,7 @@ execute if data storage better_ghast_harness:storage {particle:"angry_villager"}
 execute if data storage better_ghast_harness:storage {particle:"campfire_cosy_smoke"} run data modify storage better_ghast_harness:storage particle_display set value "Campfire Cosy Smoke"
 execute if data storage better_ghast_harness:storage {particle:"cherry_leaves"} run data modify storage better_ghast_harness:storage particle_display set value "Cherry Leaves"
 execute if data storage better_ghast_harness:storage {particle:"cloud"} run data modify storage better_ghast_harness:storage particle_display set value "Cloud"
-execute if data storage better_ghast_harness:storage {particle:"copper_flame"} run data modify storage better_ghast_harness:storage particle_display set value "Copper Flame"
+execute if data storage better_ghast_harness:storage {particle:"copper_fire_flame"} run data modify storage better_ghast_harness:storage particle_display set value "Copper Flame"
 execute if data storage better_ghast_harness:storage {particle:"damage_indicator"} run data modify storage better_ghast_harness:storage particle_display set value "Damage Indicator"
 execute if data storage better_ghast_harness:storage {particle:"dragon_breath"} run data modify storage better_ghast_harness:storage particle_display set value "Dragon Breath"
 execute if data storage better_ghast_harness:storage {particle:"dust"} run data modify storage better_ghast_harness:storage particle_display set value "Dust"
@@ -27,6 +27,3 @@ execute if data storage better_ghast_harness:storage {particle:"soul_fire_flame"
 execute if data storage better_ghast_harness:storage {particle:"totem_of_undying"} run data modify storage better_ghast_harness:storage particle_display set value "Totem of Undying"
 execute if data storage better_ghast_harness:storage {particle:"trial_omen"} run data modify storage better_ghast_harness:storage particle_display set value "Trial Omen"
 execute if data storage better_ghast_harness:storage {particle:"witch"} run data modify storage better_ghast_harness:storage particle_display set value "Witch"
-
-# Debug
-execute as @s run tellraw @a "display_name_converter function triggered!"

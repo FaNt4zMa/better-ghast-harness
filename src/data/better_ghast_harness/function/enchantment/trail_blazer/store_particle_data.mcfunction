@@ -4,4 +4,4 @@ data modify storage better_ghast_harness:storage color1 set from entity @s equip
 data modify storage better_ghast_harness:storage color2 set from entity @s equipment.body.components."minecraft:writable_book_content".pages[1].raw
 
 # Run color converter
-function better_ghast_harness:enchantment/trail_blazer/converter/color_converter
+function better_ghast_harness:enchantment/trail_blazer/converter/color_converter_dec

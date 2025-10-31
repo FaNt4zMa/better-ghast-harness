@@ -1,1 +1,1 @@
-$particle minecraft:$(particle){from_color:$(hex1),to_color:$(hex2),scale:2} ~ ~1.5 ~ 0.55 0.7 0.55 0.00001 25 force
+$particle minecraft:$(particle){from_color:$(dec1),to_color:$(dec2),scale:2} ~ ~1.5 ~ 0.55 0.7 0.55 0.00001 25 force

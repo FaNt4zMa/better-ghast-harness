@@ -33,6 +33,3 @@ execute if data storage better_ghast_harness:storage {color2:"purple"} run data 
 execute if data storage better_ghast_harness:storage {color2:"red"} run data modify storage better_ghast_harness:storage hex2 set value "#B02E26"
 execute if data storage better_ghast_harness:storage {color2:"white"} run data modify storage better_ghast_harness:storage hex2 set value "#F9FFFE"
 execute if data storage better_ghast_harness:storage {color2:"yellow"} run data modify storage better_ghast_harness:storage hex2 set value "#FED83D"
-
-# Debug
-execute as @s run tellraw @a "color_converter function triggered!"

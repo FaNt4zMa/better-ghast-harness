@@ -1,1 +1,1 @@
-$particle minecraft:$(particle){color:$(hex1),scale:2} ~ ~1.5 ~ 0.55 0.7 0.55 0.00001 25 force
+$particle minecraft:$(particle){color:$(dec1),scale:2} ~ ~1.5 ~ 0.55 0.7 0.55 0.00001 25 force
