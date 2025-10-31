@@ -1,0 +1,1 @@
+$item modify entity @s weapon.mainhand [{"function":"minecraft:set_lore","lore":[{"color":"gray","italic":false,"text":"Trail: ","extra":[{"text":"$(particle_display)","color":"gray","italic":false}]}],"mode":"replace_section"}]

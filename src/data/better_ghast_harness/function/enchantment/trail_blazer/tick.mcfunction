@@ -1,0 +1,1 @@
+execute as @a if items entity @s weapon.mainhand #minecraft:harnesses[minecraft:enchantments~[{"enchantments":"better_ghast_harness:trail_blazer","levels":{"min":1}}]] unless items entity @s weapon.mainhand #minecraft:harnesses[minecraft:firework_explosion~{shape:"small_ball"}] run function better_ghast_harness:enchantment/trail_blazer/dynamic_lore/add_particle_lore
