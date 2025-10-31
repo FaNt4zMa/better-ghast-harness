@@ -4,9 +4,6 @@
   "material": "minecraft:black_dye",
   "result": {
     "id": "minecraft:black_harness",
-    "components": {
-      "minecraft:base_color": "black"
-    },
     "count": 1
   }
 }

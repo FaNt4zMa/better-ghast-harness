@@ -4,9 +4,6 @@
   "material": "minecraft:pink_dye",
   "result": {
     "id": "minecraft:pink_harness",
-    "components": {
-      "minecraft:base_color": "pink"
-    },
     "count": 1
   }
 }

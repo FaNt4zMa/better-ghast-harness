@@ -2,7 +2,7 @@
   "type": "minecraft:smithing_transform",
   "base": "minecraft:orange_harness",
   "addition": "minecraft:purple_dye",
-  "template": "minecraft:echo_shard",
+  "template": "minecraft:glowstone_dust",
   "result": {
     "id": "minecraft:orange_harness",
     "components": {

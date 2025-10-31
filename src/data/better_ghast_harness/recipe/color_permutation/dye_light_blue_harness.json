@@ -4,9 +4,6 @@
   "material": "minecraft:light_blue_dye",
   "result": {
     "id": "minecraft:light_blue_harness",
-    "components": {
-      "minecraft:base_color": "light_blue"
-    },
     "count": 1
   }
 }

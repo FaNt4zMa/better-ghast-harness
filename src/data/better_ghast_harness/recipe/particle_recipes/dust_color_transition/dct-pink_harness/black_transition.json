@@ -2,7 +2,7 @@
   "type": "minecraft:smithing_transform",
   "base": "minecraft:pink_harness",
   "addition": "minecraft:black_dye",
-  "template": "minecraft:echo_shard",
+  "template": "minecraft:glowstone_dust",
   "result": {
     "id": "minecraft:pink_harness",
     "components": {

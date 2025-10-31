@@ -2,7 +2,7 @@
   "type": "minecraft:smithing_transform",
   "base": "minecraft:lime_harness",
   "addition": "minecraft:magenta_dye",
-  "template": "minecraft:echo_shard",
+  "template": "minecraft:glowstone_dust",
   "result": {
     "id": "minecraft:lime_harness",
     "components": {

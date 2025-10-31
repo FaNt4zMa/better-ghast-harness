@@ -2,7 +2,7 @@
   "type": "minecraft:smithing_transform",
   "base": "minecraft:black_harness",
   "addition": "minecraft:light_blue_dye",
-  "template": "minecraft:echo_shard",
+  "template": "minecraft:glowstone_dust",
   "result": {
     "id": "minecraft:black_harness",
     "components": {

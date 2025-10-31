@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:white_harness",
+  "addition": "minecraft:white_dye",
+  "template": "minecraft:firework_star",
+  "result": {
+    "id": "minecraft:white_harness",
+    "components": {
+      "minecraft:base_color": "white"
+    },
+    "count": 1
+  }
+}

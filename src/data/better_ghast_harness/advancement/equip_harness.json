@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "equip_harness": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:happy_ghast",
+          "equipment": {
+            "body": {
+              "components": {
+                "minecraft:enchantments": {
+                  "better_ghast_harness:trail_blazer": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "equip_harness"
+    ]
+  ],
+  "rewards": {
+    "function": "better_ghast_harness:enchantment/trail_blazer/on_equip"
+  }
+}

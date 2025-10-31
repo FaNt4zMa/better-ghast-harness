@@ -1,8 +1,8 @@
 {
   "type": "minecraft:smithing_transform",
   "base": "minecraft:magenta_harness",
-  "addition": "minecraft:black_dye",
-  "template": "minecraft:echo_shard",
+  "addition": "minecraft:brown_dye",
+  "template": "minecraft:glowstone_dust",
   "result": {
     "id": "minecraft:magenta_harness",
     "components": {

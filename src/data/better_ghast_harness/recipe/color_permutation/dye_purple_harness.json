@@ -4,9 +4,6 @@
   "material": "minecraft:purple_dye",
   "result": {
     "id": "minecraft:purple_harness",
-    "components": {
-      "minecraft:base_color": "purple"
-    },
     "count": 1
   }
 }

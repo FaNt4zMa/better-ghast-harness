@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:cyan_harness",
+  "addition": "minecraft:light_gray_dye",
+  "template": "minecraft:firework_star",
+  "result": {
+    "id": "minecraft:cyan_harness",
+    "components": {
+      "minecraft:base_color": "light_gray"
+    },
+    "count": 1
+  }
+}

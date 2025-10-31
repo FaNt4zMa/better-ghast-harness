@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:magenta_harness",
+  "addition": "minecraft:orange_dye",
+  "template": "minecraft:firework_star",
+  "result": {
+    "id": "minecraft:magenta_harness",
+    "components": {
+      "minecraft:base_color": "orange"
+    },
+    "count": 1
+  }
+}

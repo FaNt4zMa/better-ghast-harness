@@ -4,9 +4,6 @@
   "material": "minecraft:cyan_dye",
   "result": {
     "id": "minecraft:cyan_harness",
-    "components": {
-      "minecraft:base_color": "cyan"
-    },
     "count": 1
   }
 }

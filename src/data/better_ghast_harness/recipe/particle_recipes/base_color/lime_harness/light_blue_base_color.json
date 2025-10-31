@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:lime_harness",
+  "addition": "minecraft:light_blue_dye",
+  "template": "minecraft:firework_star",
+  "result": {
+    "id": "minecraft:lime_harness",
+    "components": {
+      "minecraft:base_color": "light_blue"
+    },
+    "count": 1
+  }
+}

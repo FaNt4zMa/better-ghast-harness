@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:yellow_harness",
+  "addition": "minecraft:brown_dye",
+  "template": "minecraft:firework_star",
+  "result": {
+    "id": "minecraft:yellow_harness",
+    "components": {
+      "minecraft:base_color": "brown"
+    },
+    "count": 1
+  }
+}

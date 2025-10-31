@@ -4,9 +4,6 @@
   "material": "minecraft:magenta_dye",
   "result": {
     "id": "minecraft:magenta_harness",
-    "components": {
-      "minecraft:base_color": "magenta"
-    },
     "count": 1
   }
 }
