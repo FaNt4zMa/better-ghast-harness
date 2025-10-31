@@ -2,6 +2,6 @@
     "replace": false,
     "values": [
         "better_ghast_harness:tick",
-        "better_ghast_harness:enchantment/trail_blazer/tick"
+        "better_ghast_harness:enchantment/trail_blazer/dynamic_lore/tick"
     ]
 }
