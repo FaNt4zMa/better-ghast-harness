@@ -6,6 +6,7 @@
   "result": {
     "id": "minecraft:purple_harness",
     "components": {
+      "!minecraft:firework_explosion": {},
       "minecraft:writable_book_content": {
         "pages": [
           "happy_villager"

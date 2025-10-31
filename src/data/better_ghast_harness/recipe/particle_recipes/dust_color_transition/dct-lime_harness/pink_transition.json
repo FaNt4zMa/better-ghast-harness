@@ -6,6 +6,7 @@
   "result": {
     "id": "minecraft:lime_harness",
     "components": {
+      "!minecraft:firework_explosion": {},
       "minecraft:writable_book_content": {
         "pages": [
           "dust_color_transition",

@@ -6,7 +6,8 @@
   "result": {
     "id": "minecraft:gray_harness",
     "components": {
-      "minecraft:base_color": "gray"
+      "minecraft:base_color": "gray",
+      "!minecraft:firework_explosion": {}
     },
     "count": 1
   }

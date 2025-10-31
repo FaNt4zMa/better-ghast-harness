@@ -6,6 +6,7 @@
   "result": {
     "id": "minecraft:orange_harness",
     "components": {
+      "!minecraft:firework_explosion": {},
       "minecraft:writable_book_content": {
         "pages": [
           "snowflake"

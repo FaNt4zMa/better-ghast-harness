@@ -6,6 +6,7 @@
   "result": {
     "id": "minecraft:cyan_harness",
     "components": {
+      "!minecraft:firework_explosion": {},
       "minecraft:writable_book_content": {
         "pages": [
           "damage_indicator"

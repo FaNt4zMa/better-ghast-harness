@@ -62,6 +62,7 @@
         "italic": false
       },
       "minecraft:base_color": "lime",
+      "!minecraft:firework_explosion": {},
       "minecraft:custom_data": {
         "tier": "5"
       },

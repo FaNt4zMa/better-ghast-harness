@@ -4,6 +4,9 @@
   "material": "minecraft:lime_dye",
   "result": {
     "id": "minecraft:lime_harness",
+    "components": {
+      "!minecraft:firework_explosion": {}
+    },
     "count": 1
   }
 }

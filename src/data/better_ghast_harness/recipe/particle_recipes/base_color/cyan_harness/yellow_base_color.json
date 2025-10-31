@@ -6,7 +6,8 @@
   "result": {
     "id": "minecraft:cyan_harness",
     "components": {
-      "minecraft:base_color": "yellow"
+      "minecraft:base_color": "yellow",
+      "!minecraft:firework_explosion": {}
     },
     "count": 1
   }

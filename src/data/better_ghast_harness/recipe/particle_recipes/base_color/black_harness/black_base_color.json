@@ -6,7 +6,8 @@
   "result": {
     "id": "minecraft:black_harness",
     "components": {
-      "minecraft:base_color": "black"
+      "minecraft:base_color": "black",
+      "!minecraft:firework_explosion": {}
     },
     "count": 1
   }

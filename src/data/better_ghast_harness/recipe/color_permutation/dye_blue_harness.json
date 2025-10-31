@@ -4,6 +4,9 @@
   "material": "minecraft:blue_dye",
   "result": {
     "id": "minecraft:blue_harness",
+    "components": {
+      "!minecraft:firework_explosion": {}
+    },
     "count": 1
   }
 }

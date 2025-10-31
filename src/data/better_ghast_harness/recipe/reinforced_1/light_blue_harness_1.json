@@ -46,6 +46,7 @@
         "italic": false
       },
       "minecraft:base_color": "light_blue",
+      "!minecraft:firework_explosion": {},
       "minecraft:custom_data": {
         "tier": "1"
       },
