@@ -1,3 +1,20 @@
+## [1.1.0] - 2025-12-07
+
+### Added
+
+- Color transmute recipes*
+
+### Changed
+
+- Enchant power is now 2x instead of 1.5x
+- Renamed tier to material type
+
+### Fixed
+
+- *Harness doesn't lose custom data on color change anymore
+
+
+
 ## [1.0.1] - 2025-10-27
 
 ### Fixed
