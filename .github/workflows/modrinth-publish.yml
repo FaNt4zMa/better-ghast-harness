@@ -48,7 +48,7 @@ jobs:
             
             ---
             *This release was automatically generated via GitHub Actions*
-          loaders: '["minecraft"]'
+          loaders: '["datapack"]'
           game-versions: |-
             1.21.6
             1.21.7
