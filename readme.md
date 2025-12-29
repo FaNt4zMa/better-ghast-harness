@@ -37,11 +37,13 @@ Each tier provides **balanced protection** for your ghast, with iron being stron
 ### ⚡ Speed Boost While Riding
 Mount up and feel the difference! Each reinforced harness grants your ghast a flying speed increase **only when you're riding**:
 
-- Copper: **+25% speed** (~5.6 blocks/s)
-- Gold: **+50% speed** (~8.1 blocks/s)
-- Iron: **+75% speed** (~11 blocks/s)
-- Diamond: **+100% speed** (~14.4 blocks/s)
-- Netherite: **+200% speed** (~32.5 blocks/s)
+| Tier | Speed Boost | Blocks/Second |
+|------|-------------|---------------|
+| Copper | +25% | ~5.6 |
+| Gold | +50% | ~8.1 |
+| Iron | +75% | ~11 |
+| Diamond | +100% | ~14.4 |
+| Netherite | +200% | ~32.5 |
 
 > **Note:** Due to how Minecraft's flying speed attribute works, higher tiers feel disproportionately faster than their percentage suggests - this is intentional! The netherite harness in particular provides a dramatically powerful boost for endgame mobility.
 
@@ -52,7 +54,7 @@ To compensate the Ghast's lack of equipment, tiered harnesses support all **Prot
 
 
 <details>
-<summary>Spoiler</summary>
+<summary>Enchantements Added</summary>
 
 - Harness Protection
 - Harness Fire Protection
