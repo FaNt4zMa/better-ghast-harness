@@ -16,17 +16,23 @@
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:armor",
-          "id": "minecraft:armor",
-          "amount": 10,
+          "id": "minecraft:armor.body",
+          "amount": 11,
           "operation": "add_value",
-          "slot": "body"
+          "slot": "body",
+          "display": {
+            "type": "hidden"
+          }
         },
         {
           "type": "minecraft:armor_toughness",
           "id": "minecraft:armor_toughness",
-          "amount": 4,
+          "amount": 2,
           "operation": "add_value",
-          "slot": "body"
+          "slot": "body",
+          "display": {
+            "type": "hidden"
+          }
         }
       ],
       "minecraft:lore": [
@@ -42,20 +48,19 @@
           "italic": false
         },
         {
-          "text": "+10 Armor",
+          "text": "+11 Armor",
           "color": "blue",
           "italic": false
         },
         {
-          "text": "+4 Armor Toughness",
+          "text": "+2 Armor Toughness",
           "color": "blue",
           "italic": false
         }
       ],
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "text": "Diamond Harness",
-        "color": "aqua",
-        "italic": false
+        "color": "aqua"
       },
       "minecraft:custom_data": {
         "tier": "4"
@@ -63,13 +68,7 @@
       "minecraft:enchantable": {
         "value": 10
       },
-      "minecraft:rarity": "rare",
-      "minecraft:tooltip_display": {
-        "hide_tooltip": false,
-        "hidden_components": [
-          "minecraft:attribute_modifiers"
-        ]
-      }
+      "minecraft:rarity": "rare"
     },
     "count": 1
   }

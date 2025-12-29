@@ -1,0 +1,25 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Ghast Go Zoom! ",
+        "color": "light_purple"
+      },
+      {
+        "text": "Speed limit? ",
+        "color": "dark_green"
+      },
+      {
+        "text": "\n§oNever heard of her.",
+        "color": "gold"
+      }
+    ],
+    "pack_format": 69,
+    "supported_formats": [
+      55,
+      75
+    ],
+    "min_format": 55,
+    "max_format": 75
+  }
+}

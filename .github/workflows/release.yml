@@ -16,11 +16,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create zip from src folder
+      - name: Create resourcepack zip from rp folder
+        run: |
+          cd rp
+          zip -r "../Better-Ghast-Harness-RP-${{ github.ref_name }}.zip" .
+
+      - name: Create datapack zip from src folder
         run: |
           cd src
-          ZIPNAME="Better-Ghast-Harness-${{ github.ref_name }}.zip"
-          zip -r "../$ZIPNAME" .
+          zip -r "../Better-Ghast-Harness-DP-${{ github.ref_name }}.zip" .
 
       - name: Extract latest changelog entry
         id: changelog
@@ -36,7 +40,9 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           body: ${{ steps.changelog.outputs.body }}
-          files: "Better-Ghast-Harness-${{ github.ref_name }}.zip"
+          files: |
+            "Better-Ghast-Harness-DP-${{ github.ref_name }}.zip"
+            "Better-Ghast-Harness-RP-${{ github.ref_name }}.zip"
           name: "Better Ghast Harness ${{ github.ref_name }}"
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}

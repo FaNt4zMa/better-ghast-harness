@@ -16,10 +16,13 @@
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:armor",
-          "id": "minecraft:armor",
-          "amount": 8,
+          "id": "minecraft:armor.body",
+          "amount": 9,
           "operation": "add_value",
-          "slot": "body"
+          "slot": "body",
+          "display": {
+            "type": "hidden"
+          }
         }
       ],
       "minecraft:lore": [
@@ -35,15 +38,14 @@
           "italic": false
         },
         {
-          "text": "+8 Armor",
+          "text": "+9 Armor",
           "color": "blue",
           "italic": false
         }
       ],
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "text": "Iron Harness",
-        "color": "gray",
-        "italic": false
+        "color": "gray"
       },
       "minecraft:custom_data": {
         "tier": "3"
@@ -51,13 +53,7 @@
       "minecraft:enchantable": {
         "value": 9
       },
-      "minecraft:rarity": "uncommon",
-      "minecraft:tooltip_display": {
-        "hide_tooltip": false,
-        "hidden_components": [
-          "minecraft:attribute_modifiers"
-        ]
-      }
+      "minecraft:rarity": "uncommon"
     },
     "count": 1
   }

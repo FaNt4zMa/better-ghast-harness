@@ -16,10 +16,13 @@
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:armor",
-          "id": "minecraft:armor",
-          "amount": 6,
+          "id": "minecraft:armor.body",
+          "amount": 7,
           "operation": "add_value",
-          "slot": "body"
+          "slot": "body",
+          "display": {
+            "type": "hidden"
+          }
         }
       ],
       "minecraft:lore": [
@@ -35,15 +38,14 @@
           "italic": false
         },
         {
-          "text": "+6 Armor",
+          "text": "+7 Armor",
           "color": "blue",
           "italic": false
         }
       ],
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "text": "Gold Harness",
-        "color": "#e4dc55",
-        "italic": false
+        "color": "yellow"
       },
       "minecraft:custom_data": {
         "tier": "2"
@@ -51,13 +53,7 @@
       "minecraft:enchantable": {
         "value": 25
       },
-      "minecraft:rarity": "common",
-      "minecraft:tooltip_display": {
-        "hide_tooltip": false,
-        "hidden_components": [
-          "minecraft:attribute_modifiers"
-        ]
-      }
+      "minecraft:rarity": "common"
     },
     "count": 1
   }

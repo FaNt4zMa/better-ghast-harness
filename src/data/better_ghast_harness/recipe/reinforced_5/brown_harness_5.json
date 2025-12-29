@@ -8,24 +8,33 @@
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:armor",
-          "id": "minecraft:armor",
-          "amount": 10,
+          "id": "minecraft:armor.body",
+          "amount": 19,
           "operation": "add_value",
-          "slot": "body"
+          "slot": "body",
+          "display": {
+            "type": "hidden"
+          }
         },
         {
           "type": "minecraft:armor_toughness",
           "id": "minecraft:armor_toughness",
-          "amount": 6,
+          "amount": 3,
           "operation": "add_value",
-          "slot": "body"
+          "slot": "body",
+          "display": {
+            "type": "hidden"
+          }
         },
         {
           "type": "minecraft:knockback_resistance",
           "id": "minecraft:knockback_resistance",
-          "amount": 0.2,
+          "amount": 0.1,
           "operation": "add_value",
-          "slot": "body"
+          "slot": "body",
+          "display": {
+            "type": "hidden"
+          }
         }
       ],
       "minecraft:lore": [
@@ -41,25 +50,24 @@
           "italic": false
         },
         {
-          "text": "+10 Armor",
+          "text": "+19 Armor",
           "color": "blue",
           "italic": false
         },
         {
-          "text": "+6 Armor Toughness",
+          "text": "+3 Armor Toughness",
           "color": "blue",
           "italic": false
         },
         {
-          "text": "+20% Knockback Resistance",
+          "text": "+10% Knockback Resistance",
           "color": "blue",
           "italic": false
         }
       ],
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "text": "Netherite Harness",
-        "color": "light_purple",
-        "italic": false
+        "color": "light_purple"
       },
       "minecraft:custom_data": {
         "tier": "5"
@@ -67,13 +75,7 @@
       "minecraft:enchantable": {
         "value": 15
       },
-      "minecraft:rarity": "epic",
-      "minecraft:tooltip_display": {
-        "hide_tooltip": false,
-        "hidden_components": [
-          "minecraft:attribute_modifiers"
-        ]
-      }
+      "minecraft:rarity": "epic"
     },
     "count": 1,
     "id": "minecraft:brown_harness"

@@ -26,7 +26,8 @@ jobs:
       - name: Download release asset
         run: |
           gh release download ${{ github.event.release.tag_name }} \
-            -p "Better-Ghast-Harness-${{ github.event.release.tag_name }}.zip"
+            -p "Better-Ghast-Harness-DP-${{ github.event.release.tag_name }}.zip" \
+            -p "Better-Ghast-Harness-RP-${{ github.event.release.tag_name }}.zip"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -42,7 +43,8 @@ jobs:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: ${{ env.MODRINTH_ID }}
           name: ${{ github.event.release.name }}
-          files: '["Better-Ghast-Harness-${{ github.event.release.tag_name }}.zip"]'
+          files: '["Better-Ghast-Harness-DP-${{ github.event.release.tag_name }}.zip", "Better-Ghast-Harness-RP-${{ github.event.release.tag_name }}.zip"]'
+          primary-file: "Better-Ghast-Harness-DP-${{ github.event.release.tag_name }}.zip"
           version: ${{ steps.version.outputs.number }}
           changelog: |
             ${{ github.event.release.body }}
@@ -68,7 +70,7 @@ jobs:
           
           # Extract the datapack
           mkdir mod-temp
-          unzip "Better-Ghast-Harness-${{ github.event.release.tag_name }}.zip" -d mod-temp
+          unzip "Better-Ghast-Harness-DP-${{ github.event.release.tag_name }}.zip" -d mod-temp
           
           # Copy and rename pack icon for mod loaders
           if [ -f "mod-temp/pack.png" ]; then
@@ -170,7 +172,8 @@ jobs:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: ${{ env.MODRINTH_ID }}
           name: ${{ github.event.release.name }}
-          files: '["${{ env.MODRINTH_SLUG }}-${{ github.event.release.tag_name }}.jar"]'
+          files: '["${{ env.MODRINTH_SLUG }}-${{ github.event.release.tag_name }}.jar", "Better-Ghast-Harness-RP-${{ github.event.release.tag_name }}.zip"]'
+          primary-file: "${{ env.MODRINTH_SLUG }}-${{ github.event.release.tag_name }}.jar"
           version: ${{ steps.version.outputs.number }}+mod
           changelog: |
             ${{ github.event.release.body }}

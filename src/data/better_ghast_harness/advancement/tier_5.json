@@ -15,7 +15,7 @@
             "italic": false
           }
         ],
-        "minecraft:custom_name": {
+        "minecraft:item_name": {
           "text": "Netherite Harness",
           "color": "light_purple",
           "italic": false

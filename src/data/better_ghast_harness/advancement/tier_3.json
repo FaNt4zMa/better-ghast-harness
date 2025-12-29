@@ -15,7 +15,7 @@
             "italic": false
           }
         ],
-        "minecraft:custom_name": {
+        "minecraft:item_name": {
           "text": "Iron Harness",
           "color": "gray",
           "italic": false

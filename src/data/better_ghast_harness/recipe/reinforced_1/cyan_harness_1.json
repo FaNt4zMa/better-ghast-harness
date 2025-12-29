@@ -16,10 +16,13 @@
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:armor",
-          "id": "minecraft:armor",
+          "id": "minecraft:armor.body",
           "amount": 5,
           "operation": "add_value",
-          "slot": "body"
+          "slot": "body",
+          "display": {
+            "type": "hidden"
+          }
         }
       ],
       "minecraft:lore": [
@@ -40,10 +43,9 @@
           "italic": false
         }
       ],
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "text": "Copper Harness",
-        "color": "#d0704d",
-        "italic": false
+        "color": "#d0704d"
       },
       "minecraft:custom_data": {
         "tier": "1"
@@ -51,13 +53,7 @@
       "minecraft:enchantable": {
         "value": 8
       },
-      "minecraft:rarity": "common",
-      "minecraft:tooltip_display": {
-        "hide_tooltip": false,
-        "hidden_components": [
-          "minecraft:attribute_modifiers"
-        ]
-      }
+      "minecraft:rarity": "common"
     },
     "count": 1
   }

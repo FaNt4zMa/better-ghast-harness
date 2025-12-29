@@ -1,0 +1,63 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:item_name",
+    "cases": [
+      {
+        "when": {
+          "text": "Copper Harness",
+          "color": "#d0704d"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "better_ghast_harness:item/copper-harnesses/magenta_harness"
+        }
+      },
+      {
+        "when": {
+          "text": "Gold Harness",
+          "color": "yellow"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "better_ghast_harness:item/gold-harnesses/magenta_harness"
+        }
+      },
+      {
+        "when": {
+          "text": "Iron Harness",
+          "color": "gray"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "better_ghast_harness:item/iron-harnesses/magenta_harness"
+        }
+      },
+      {
+        "when": {
+          "text": "Diamond Harness",
+          "color": "aqua"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "better_ghast_harness:item/diamond-harnesses/magenta_harness"
+        }
+      },
+      {
+        "when": {
+          "text": "Netherite Harness",
+          "color": "light_purple"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "better_ghast_harness:item/netherite-harnesses/magenta_harness"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/magenta_harness"
+    }
+  }
+}
